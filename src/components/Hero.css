@@ -1,0 +1,137 @@
+.color-logo {
+  text-align: center;
+  color: #6237b3be;
+  animation-name: example4;
+  animation-duration: 4s;
+}
+@keyframes example4 {
+  from {
+    color: #70adb5;
+  }
+  to {
+    color: #407088;
+  }
+}
+
+.color-headerBg {
+  background-color: #929D9E;
+  border-bottom: #7e747425 1px solid;
+} 
+
+.Link {
+    color: #F3E367;
+    color: #d6076f;
+    animation-name: example;
+    animation-duration: 4s;
+    text-align: center;
+    /* border: 1px solid red;  */
+    padding:15px 15px 15px 15px;
+    
+    
+}
+@keyframes example {
+  from {color:#7e7474;}
+  to {color:  #F3E367;
+    ;}
+}
+.Link:hover {
+    color: #F3E367;
+    
+    
+}
+
+/* .Link:hover {
+  color: #07689f;
+  
+}  */
+
+
+
+
+/* p {
+  margin: 20px;
+  -webkit-transition: color 1s; 
+  transition: color 1s; 
+}
+p:hover {
+  color: #ff0000;
+} */
+
+
+.slogon1 {
+
+  color: #F3E367;
+  animation-name: example1;
+  animation-duration: 4s;
+  text-align: center;
+  /* border: 1px solid red;  */
+}
+
+@keyframes example1 {
+  from {color:#d6076f73;}
+  to {color: #407088;}
+  
+}
+
+
+.About2 {
+
+  color: #F3E367;
+  animation-name: example1;
+  animation-duration: 4s;
+  text-align: center;
+  /* border: 1px solid red;  */
+}
+
+@keyframes example1 {
+  from {color:#d6076f73;}
+  to {color: #407088;}
+  
+}
+
+.slogon3 {
+
+  color: #F3E367;
+  animation-name: example3;
+  animation-duration: 4s;
+}
+
+@keyframes example3 {
+  from {color:#7e7474;}
+  to {color: #d6076f;}
+  
+}
+@keyframes example3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slogon4 {
+  /* position: absolute; */
+  transform: translateX(0%);
+  left: -50%;
+  animation: center 5s infinite;
+  animation-iteration-count: 1;
+  /* text-align: center; */
+}
+
+@keyframes center {
+  0%, 10% {
+      transform: translateX(0%);
+      right: 0%; 
+  }
+  90%, 50% {
+      transform: translateX(50%);
+      right: 50%; 
+      
+  }
+}
+
+
+
+
+
