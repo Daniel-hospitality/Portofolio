@@ -33,7 +33,7 @@ class App extends React.Component {
 
       /////////Hero Jumbotron//////////////////
       home: {
-        title: "BootCamp 2020",
+        title: "BootCamp 2020 TestNetifly",
         subTitle: "Web Dev AddOn TechGrounds ",
         text: "Check out below",
       },
